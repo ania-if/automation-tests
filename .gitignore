@@ -1,0 +1,22 @@
+# Logs
+logs
+*.log
+
+# ignore ALL files in ANY directory named temp
+temp/
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules/
+
+# code editor files
+.idea
+.vscode/
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Selenium test reports
+reports/
